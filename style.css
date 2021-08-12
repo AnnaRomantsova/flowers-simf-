@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;1,300;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.wrapper{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}
+.header{
+    padding-top: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(255, 255, 255);
+}
+.header-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;   
+    margin-bottom: 100px;
+}
+.link-logo{
+    color:black;
+    font-size: 26px;
+    text-decoration: none;
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    
+}
+.link-logo:hover{
+    transition: all 0.5s ease;
+    border-left:olive 1px dashed;
+    border-right:olive 1px dashed;
+    color:orange;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-link-item{
+    
+    margin-left: 25px;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+.nav-link{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color:olive;
+    border-bottom: palevioletred 1px solid;
+    border-right: palevioletred 2px dashed;
+    transition-duration: .5s;
+    padding-right: 5px;
+    margin-left: 10px;
+}
+.h1{
+    text-align: center;
+    font-family: 'Cormorant Infant', serif;
+    color:olive;
+}
+.h1:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    color:cadetblue;
+    transition: all linear .3s;
+}
+.img-flower{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.img-flowers{
+    font-size: 0;
+    width: 1000px;
+}
+/* секция о нас  */
+.about{
+    
+    background-color: #fff4ec;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.h2-title{
+    margin-top: 20px;
+    font-family: 'Cormorant Infant', serif;
+    text-align: center;
+    font-size: 29px;
+    color:orange;
+}
+.h2-title::after{
+    content: '';
+    display: block;
+    height: 1px; /* Высота линии */
+    background: brown; /* Цвет линии */
+    width: 50px; /* Ширина линии до наведения */
+    margin: 10px auto 40px; /* Отступ с боков по центру и сверху */
+}
+.flex-about{
+  display: flex;
+  justify-content: center;
+}
+.text-about-right{
+    font-size: 20px;
+    line-height: 45px;
+}
+.about-img{
+    width: 550px;
+}
+/* каталог букетов  */
+.catalog{
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
+.flex-catalog{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.catalog-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.catalog-item{
+    margin-bottom: 30px;
+}
+.img-catalog-item{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.img-catalog-item:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+    cursor: crosshair;
+}
+.description{
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Cormorant Infant', serif;
+}
+.catalog-btn{
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0;
+    border: 1px goldenrod solid;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}
+.catalog-btn:hover{
+    cursor: pointer;
+    color:white;
+    transition-duration: 1s;
+    background-color: palevioletred;
+}
+/* доставка  */
+.delivery{
+    align-items: center;
+    background-color: #fff4ec;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    display: block;
+    text-align: center;
+}
+.flex-delivery{
+     display: flex;
+     justify-content: space-between;
+     flex-direction: column;
+     text-align: center;   
+}
+.delivery-item{
+    margin: 10px;
+}
+.text-delivery{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+.icon-delivery{
+    width: 90px;
+    text-align: center;
+}
+.price{
+    font-weight: 400px;
+    opacity: .8;
+    font-size: 18px;
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 30px;
+}
+/* отзывы клиентов  */
+.testimonials{
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
+.flex-testimonials{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.name{
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+/* контакты с картой  */
+.contact{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+    background-color: #fff4ec;
+}
+.flex-contact{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.adress-text-left{
+    margin-top: 80px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+.map-right{
+    margin-bottom: 30px;
+}
+/* footer  */
+.footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+    min-height: 70px;
+    
+}
+.flex-footer{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.link-socials{
+    margin-left: 10px;
+}
+.adress-text, .copyright{
+    font-family: 'Cormorant Infant', serif;
+    font-weight: 600;
+    font-size: 20px;
+}
