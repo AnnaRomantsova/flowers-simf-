@@ -7,7 +7,7 @@
 }
 .wrapper{
     margin: 0 auto;
-    max-width: 1440px;
+    max-width: 1100px;
     width: 100%;
 }
 .header{
@@ -30,7 +30,6 @@
     font-family: 'Cormorant Infant', serif;
     font-weight: 600;
     text-transform: uppercase;
-    
 }
 .link-logo:hover{
     transition: all 0.5s ease;
@@ -47,7 +46,6 @@
 }
 
 .nav-link-item{
-    
     margin-left: 25px;
     font-size: 26px;
     letter-spacing: 1px;
@@ -89,13 +87,11 @@
 }
 /* секция о нас  */
 .about{
-    
     background-color: #fff4ec;
     display: flex;
     justify-content: center;
     text-align: center;
     margin: 0 auto;
-    display: block;
 }
 .h2-title{
     margin-top: 20px;
@@ -129,7 +125,6 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    display: block;
 }
 .flex-catalog{
     display: flex;
@@ -184,7 +179,6 @@
     display: flex;
     justify-content: center;
     margin: 40px auto;
-    display: block;
     text-align: center;
 }
 .flex-delivery{
@@ -200,14 +194,13 @@
     margin-top: 10px;
     text-align: center;
     font-size: 20px;
-
 }
 .icon-delivery{
     width: 90px;
     text-align: center;
 }
 .price{
-    font-weight: 400px;
+    font-weight: 400;
     opacity: .8;
     font-size: 18px;
     padding: 10px;
@@ -220,7 +213,6 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    display: block;
 }
 .flex-testimonials{
     display: flex;
@@ -260,9 +252,7 @@
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    display: block;
     min-height: 70px;
-    
 }
 .flex-footer{
     display: flex;
